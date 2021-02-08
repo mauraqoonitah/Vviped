@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Vviped</string>
+    <string name="title">"sale to donate"</string>
+    <string name="password_hint">********</string>
+    <string name="password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="type_message">Type Message</string>
+    <string name="btn_sign_up">Sign Up</string>
+
+    <string name="title_activity_upload_selling">UploadSellingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search_txt">Search for product</string>
+
+    <string name="create_campaign_1"> Campaign adalah sebutan untuk penggalangan dana di Vviped.
+        Kamu atau orang lain bisa menjual produk
+        dengan campaign yang kamu buat dan donasikan hasil penjualannya ke campaign tersebut</string>
+
+
+    <string name="create_campaign_deskripsi">Latar belakang dan kondisi orang yang ingin kamu bantu.</string>
+    <string name="create_campaign_penerimadonasi">Kepada siapa donasi kamu ditujukan.</string>
+    <string name="create_campaign_detail_penggunaan">Jelaskan detail penggunaan biaya akan digunakan untuk apa saja jika donasi terkumpul.</string>
+    <string name="create_campaign_2">Campaign ini akan dipublikasikan dan siapapun dapat memilih campaign kamu untuk ikut berdonasi.
+        Mohon pastikan form diisi dengan benar. </string>
+
+    <string name="settings_about_vviped1"> VVIPED adalah aplikasi media sosial untuk penggalangan
+        dana secara online dengan cara jual-beli barang sekaligus berdonasi.
+        Kamu bisa menjual produk yang masih layak pakai, ataupun menjual produk kamu sendiri dan
+        hasil penjualannya akan disumbangkan untuk penggalangan dana yang bisa kamu buat sendiri
+        ataupun ikut dengan galang dana milik orang lain. Tidak ada biaya tambahan untuk jual dan beli.
+        Benar-benar gratis!
+    </string>
+
+    <string name="settings_about_vviped2_1">
+        Buat campaign kamu sendiri untuk menggalang dana dan gunakan untuk donasi dari hasil
+        penjualan barang-mu. Kamu juga dapat menggunakan galang dana milik orang lain.
+    </string>
+
+    <string name="settings_about_vviped2_2">
+        Lihat di halaman campaign untuk mencari galang dana yang kamu minati dan mulai menjual barang-mu!
+
+    </string>
+    <string name="settings_about_vviped2_3">
+        Daftarkan produk yang akan kamu jual. Upload produk kamu dengan mengisi form jual dan
+        isi detail produk nya, semakin rinci deskripsi produk-mu, pembeli akan semakin tertarik!
+
+    </string>
+    <string name="settings_about_vviped2_4">
+        Dapatkan pemberitahuan pesan melalui obrolan Whatsapp dari pembeli jika mereka ingin tahu
+        lebih lanjut atau jika tertarik dengan barang kamu.
+
+    </string>
+    <string name="settings_about_vviped3_1">
+        Lihat daftar produk yang ingin kamu beli, dan pastikan tujuan galang dana yang tertera sudah kamu ketahui.
+    </string>
+
+    <string name="settings_about_vviped3_2">
+        Tertarik dengan produknya dan sudah mengetahui tujuan donasi untuk produk tersebut? Tekan tombol beli dan akan langsung tertuju ke obrolan WhatsApp penjual. Pastikan untuk bertanya lebih rinci tentang kondisi produk, detil galangan dana, detil transaksi ataupun menegosiasikan harga sebelum kamu membelinya.
+    </string>
+
+</resources>

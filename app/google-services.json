@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040570556451",
+    "firebase_url": "https://vvipedauth.firebaseio.com",
+    "project_id": "vvipedauth",
+    "storage_bucket": "vvipedauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040570556451:android:d81736868fe0856fd11196",
+        "android_client_info": {
+          "package_name": "com.ilkom.vviped"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040570556451-cn0e3fq9fpd5jitjopcf7tnh2dh4src1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZL43vj9jQt1xOf-a3AIXYaDNkElkMppk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040570556451-cn0e3fq9fpd5jitjopcf7tnh2dh4src1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

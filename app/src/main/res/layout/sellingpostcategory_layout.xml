@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/post_topLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profpict_post3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:src="@drawable/profilpic" />
+
+            <TextView
+                android:id="@+id/username_post3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="akunsaya"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity = "center_vertical|left|start"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/cabin"
+                android:textSize="16dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/share_btn3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_share_24"
+                android:layout_gravity="end|center_vertical"
+                app:backgroundTint="@color/colorWhite"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagepost_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profilpic" />
+
+
+        <TextView
+            android:id="@+id/product_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:text="Buku Materi Matematika SMA"
+            android:textColor="@color/colorAccent2"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cabin"/>
+        <TextView
+            android:id="@+id/produk_kondisi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="New"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="13dp" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_campaign3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_campaign_heart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/campaign_title"
+                app:layout_constraintHorizontal_bias="0.551"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/campaign_title3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Donasi Hijrah by Salim FMIPA UNJDonasi Hijrah by Salim FMIPA UNJDonasi Hijrah by Salim FMIPA UNJ"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/icon_campaign3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="40dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/deskripsi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toStartOf="@+id/harga_produk"
+                android:layout_toLeftOf="@+id/harga_produk"
+                android:text="Deskripsi :"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="2dp" />
+
+
+            <TextView
+                android:id="@+id/rp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp"
+                android:layout_marginRight="2dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/harga_produk3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/deskripsi3"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/harga_produk3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:gravity="end"
+                android:text="1.000.000"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/produk_deskripsi3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Buku bekas, kualitas masih sekitar 90% Buku bekas, kualitas masih sekitar 90% Buku bekas, kualitas masih sekitar 90%. "
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:fontFamily="@font/cabin"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/linear_layout2">
+
+            <TextView
+                android:id="@+id/lokasi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Lokasi:"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_buy3"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_radiusbg"
+                android:text="BELI"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/cabin"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lokasi_penjual3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="Rawamangun, Jakarta Timur"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/cabin"/>
+
+        <TextView
+            android:id="@+id/whatsapp_number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

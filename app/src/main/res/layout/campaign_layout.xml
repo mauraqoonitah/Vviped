@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/post_topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/organization_profpict_post"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:src="@drawable/profilpic" />
+
+            <TextView
+                android:id="@+id/organizationname_post"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity = "center_vertical|left|start"
+                android:textStyle="bold"
+                android:text="akunsaya"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/cabin"
+                android:textSize="16dp"
+                />
+
+            <ImageButton
+                android:id="@+id/share_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_share_24"
+                android:layout_gravity="end|center_vertical"
+                app:backgroundTint="@color/colorWhite"
+                 />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagecampaign_layout"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profilpic" />
+
+        <TextView
+            android:id="@+id/campaign_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:text="Membantu anak yatim untuk membayar uang sekolah"
+            android:textColor="@color/colorAccent2"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cabin"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/linear_layout1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:clickable="false"
+                android:text="Deskripsi :"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/donatewithselling_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_radiusbg"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Jual Produk Saya"
+                android:textColor="@color/colorWhite"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/cabin"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/campaign_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/donatewithselling_btn"
+            android:layout_toLeftOf="@+id/donatewithselling_btn"
+            android:text="Description here"
+            android:justificationMode="inter_word"
+            android:textColor="@color/colorBlack"
+            android:paddingBottom="5dp"
+            android:textSize="14sp"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/cabin"
+            />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Kategori :"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/campaign_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="3dp"
+            android:text="Kegiatan Sosial, Kesehatan"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:fontFamily="@font/cabin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Penerima donasi :"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/campaign_penerima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="3dp"
+            android:text="Pak Somat Baharuddin"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:fontFamily="@font/cabin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Detail Penggunaan biaya :"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usage_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="6dp"
+            android:text="Biaya rumah sakit Rp.1.000.000"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:fontFamily="@font/cabin"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

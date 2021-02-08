@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.SettingsContactUs">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Kontak Kami"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temukan Vviped"
+                    android:paddingVertical="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cabin"
+                    android:textColor="@color/colorTextSecondary"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/link_to_instagram"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="20dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/instagram" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tim Pengembang"
+                    android:layout_marginTop="50dp"
+                    android:paddingVertical="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cabin"
+                    android:textColor="@color/colorTextSecondary"
+                    />
+
+
+                <Button
+                    android:id="@+id/contact_atikah"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Atikah Aulia Putri"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorTextPrimary"
+                    android:fontFamily="@font/cabin"
+                    android:layout_marginVertical="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/field_settings_about"
+                    />
+
+                <Button
+                    android:id="@+id/contact_octa"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Octarina Salsabila"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorTextPrimary"
+                    android:fontFamily="@font/cabin"
+                    android:layout_marginVertical="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/field_settings_about"
+                    />
+                <Button
+                    android:id="@+id/contact_maura"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Maura Qoonitah Putri"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorTextPrimary"
+                    android:fontFamily="@font/cabin"
+                    android:layout_marginVertical="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/field_settings_about"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

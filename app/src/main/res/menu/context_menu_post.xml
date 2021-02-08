@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_edit_post"
+        android:title="Ubah"
+        android:icon="@drawable/ic_edit">
+    </item>
+
+    <item
+        android:id="@+id/menu_delete_post"
+        android:title="Hapus"
+        android:icon="@drawable/ic_delete">
+    </item>
+
+    <item
+        android:id="@+id/menu_share_post"
+        android:title="Bagikan"
+        android:icon="@drawable/ic_baseline_share_24">
+    </item>
+</menu>

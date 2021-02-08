@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <color name="colorPrimary">#F56040</color>
+    <color name="colorPrimaryDark">#F56040</color>
+    <color name="colorAccent">#F77737</color>
+    <color name="colorBlack">#212121</color>
+    <color name="colorAccent2">#F56040</color>
+    <color name="colorAccentLight"> #ff926c</color>
+    <color name="colorAccentLighter">#ffc39b</color>
+    <color name="colorAccentTransparent">#ffccbc</color>
+
+
+
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="ColorGrey">#C7C4C4</color>
+    <color name="ColorLightGrey">#eceff1</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRedDarken4">#b71c1c</color>
+    <color name="colorRedDarken3">#c62828 </color>
+    <color name="colorRedDarken2">#d32f2f</color>
+
+    <color name="textinput_stroke" app:override="true">#F56040</color>
+    <color name="colorDarkenOrange"> #bb2c16 </color>
+
+
+</resources>
